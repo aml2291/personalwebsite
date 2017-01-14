@@ -24,14 +24,14 @@
          }
 
          /* presentational */
-         body { padding: 2%; font: 18px; }
+         body {margin: 0; font: 18px; }
 
-         nav a { color: rgb(96,39,0); display: block; padding: 0.5em 1em; text-decoration: none; }
+         nav a { color: rgb(17,34,34); display: block; padding: 0.5em 1em; text-decoration: none; }
          nav a:hover { color: rgb(101,126,126); }
          nav ul,
          nav ul li {position: relative; list-style-type: none; padding: 0; padding-left: 15; padding-right: 15; margin: 0; }
 
-         nav > ul { background-color: rgb(218,236,237); text-align: center; }
+         nav > ul { background-color: rgb(91,105,106); text-align: center; }
          nav > ul > li { display: inline-block; border-left: solid 1px #aaa; }
          nav > ul > li:first-child { border-left: none; }
 
@@ -58,7 +58,7 @@
 body {height: 100%;
       font-family: 'Raleway', sans-serif;
       background-image: url('Website Photos/stardust.png');
-      margin: 15px}
+      }
 
 h2 {font-family: 'Raleway', sans-serif;}
 p {font-family: 'Raleway', sans-serif;}
